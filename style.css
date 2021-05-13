@@ -1,14 +1,10 @@
 body {
-    margin: 0;
-    padding: 0;
-    background: #26262626;
+
     background-image: url(ressources/background.jpg);
     background-size: cover;
-    height: 100vh;
     font-family: "poppins";
     
 }
-
 
 .carte {
 
@@ -32,9 +28,7 @@ body {
     grid-column: 2 / span 2;
     grid-row: 2;
     background-color:#8d4ea7; 
-    justify-content: center;
-    align-items: center;
-
+    
 } 
 
 .tabmoi2 {
@@ -65,9 +59,6 @@ body {
     grid-column: 2;
     grid-row: 3;
     background-color:#d65140;
-    justify-content: center;
-    align-items: center;
-
 
 }
 
@@ -75,15 +66,11 @@ body {
 
     grid-column: 2;
     grid-row: 3;  
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 12px;
     color: white;
-    margin-top: 70px;
+    margin-top: 90px;
     text-align: center;
    
-
 }
 
 .bkgrndOrge {
@@ -91,22 +78,19 @@ body {
     grid-column: 3;
     grid-row: 3;
     background-color:#eba02b;
-    justify-content: center;
-    align-items: center;
     
 } 
 
-
-.tabtel {
+.tabmotiv {
 
     grid-column: 3;
     grid-row: 3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
-    font-size: 16px;
-    margin-top: 70px;
+    font-size: 12px;
+    margin-top: 80px;
+    margin-left: 10px;
+    text-align: center;
+    
 } 
 
 .bkgrndVrt {
@@ -114,8 +98,6 @@ body {
     grid-column: 2;
     grid-row: 4;
     background-color:#58973c;
-    justify-content: center;
-    align-items: center;
 
 } 
 
@@ -123,12 +105,11 @@ body {
 
     grid-column: 2;
     grid-row: 4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
     font-size: 12px;
-    margin-top: 45px;
+    margin-top: 95px;
+    text-align: center;
+
 } 
 
 .bkgrndble {
@@ -136,9 +117,6 @@ body {
     grid-column: 3;
     grid-row: 4;
     background-color:#3962b5;
-    justify-content: center;
-    align-items: center;
-    color: white;
 
 } 
 
@@ -146,18 +124,15 @@ body {
 
     grid-column: 3;
     grid-row: 4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
-    margin-top: 45px;
+    margin-top: 95px;
     text-align: center;
     font-size: 12px;
+
 } 
 
 .moi {
     
-    display: inline-block;
     width: 65px;
     margin-left: 115px;
     margin-top: 50px;
@@ -166,25 +141,22 @@ body {
 
 .adr {
     
-    display: inline-block;
     width: 60px;
     margin-left: -110px;
     margin-top: 265px;
     
 }
 
-.tel {
+.motiv {
     
-    display: inline-block;
-    width: 40px;
-    margin-left: -98px;
-    margin-top: 270px;
+    width: 60px;
+    margin-left: -110px;
+    margin-top: 260px;
 
 }
 
 .mail {
-    
-    display: inline-block;
+
     width: 65px;
     margin-left: 63px;
     margin-top: 415px;
@@ -192,13 +164,18 @@ body {
 }
 
 .site {
-    
-    display: inline-block;
+
     width: 55px;
     margin-left: -106px;
-    margin-top: 412px;
+    margin-top: 415px;
 
 }
+
+
+    
+
+
+
 
 
     
